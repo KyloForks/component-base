@@ -2,7 +2,11 @@
 // Use of this source code is governed by a MIT style
 // license that can be found in the LICENSE file.
 
+//go:build jsoniter
 // +build jsoniter
+
+// ywh: 插件化选择 JSON 库，表示 tags 是 jsoniter 的时候编译这个 Go 文件。
+// 可根据结构化和非结构化场景选择。
 
 package json
 
